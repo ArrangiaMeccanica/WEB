@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrangia Meccanica - Official Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Archivo+Black&family=Archivo:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Sticky Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-arrangia">ARRANGIA</span><span class="logo-meccanica">MECCANICA</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#bio" class="nav-link">Bio</a></li>
+                <li><a href="#music" class="nav-link">Music</a></li>
+                <li><a href="#videos" class="nav-link">Videos</a></li>
+                <li><a href="#shows" class="nav-link">Shows</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contatti</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+
+        <!-- Pixel Characters Layer -->
+        <div class="pixel-stage" id="pixelStage" aria-hidden="true">
+
+           <!-- VOCE 1 -->
+	<div class="pixel-char char-voce1" data-label="voce">
+   		<canvas width="32" height="48" class="sprite-canvas" data-type="voce" data-color="#ff6b35"></canvas>
+   		<span class="char-label">Babba</span>
+	</div>
+	   <!-- VOCE 2 -->
+	<div class="pixel-char char-voce2" data-label="voce">
+    		<canvas width="32" height="48" class="sprite-canvas" data-type="voce" data-color="#e84393"></canvas>
+    		<span class="char-label">Clara</span>
+	</div>
+	<!-- VOCE 3 -->
+	<div class="pixel-char char-voce3" data-label="voce">
+    		<canvas width="32" height="48" class="sprite-canvas" data-type="voce" data-color="#f5c518"></canvas>
+    		<span class="char-label">Cielo</span>
+	</div>
+	<!-- VOCE 4 -->
+	<div class="pixel-char char-voce4" data-label="voce">
+    		<canvas width="32" height="48" class="sprite-canvas" data-type="voce" data-color="#ff6b35"></canvas>
+    		<span class="char-label">Caroley</span>
+	</div>
+	<!-- VOCE 5 -->
+	<div class="pixel-char char-voce5" data-label="voce">
+    		<canvas width="32" height="48" class="sprite-canvas" data-type="voce" data-color="#aaffaa"></canvas>
+    		<span class="char-label">Merro</span>
+	</div>
+	<!-- SASSO -->
+	<div class="pixel-char char-sasso" data-label="sax">
+    		<canvas width="32" height="48" class="sprite-canvas" data-type="sax" data-color="#ffd700"></canvas>
+    		<span class="char-label">Pietro F.</span>
+	</div>
+	<!-- TASTI -->
+	<div class="pixel-char char-tasti" data-label="keys">
+    		<canvas width="32" height="48" class="sprite-canvas" data-type="keys" data-color="#b388ff"></canvas>
+    		<span class="char-label">Tomme</span>
+	</div>
+	<!-- CHITARRA -->
+	<div class="pixel-char char-chitarra" data-label="guitar">
+    		<canvas width="32" height="48" class="sprite-canvas" data-type="guitar" data-color="#ff8a65"></canvas>
+    		<span class="char-label">Cosimo</span>
+	</div>
+	<!-- BASSO -->
+	<div class="pixel-char char-basso" data-label="bass">
+    		<canvas width="32" height="48" class="sprite-canvas" data-type="bass" data-color="#4fc3f7"></canvas>
+    		<span class="char-label">Anto</span>
+	</div>
+	<!-- DJ -->
+	<div class="pixel-char char-dj" data-label="dj">
+    		<canvas width="32" height="48" class="sprite-canvas" data-type="dj" data-color="#ff4081"></canvas>
+    		<span class="char-label">Pio</span>
+	</div>
+	<!-- PERCUSSIONI 
+	<div class="pixel-char char-perc" data-label="perc">
+    		<canvas width="32" height="48" class="sprite-canvas" data-type="perc" data-color="#69f0ae"></canvas>
+    		<span class="char-label">perc</span>
+	</div>-->
+
+        </div>
+
+        <!-- Hero Content -->
+        <div class="hero-content">
+            <div class="hero-eyebrow">LIVE ELECTROPOP MUSIC</div>
+            <h1 class="hero-title">
+                <span class="title-arrangia">ARRANGIA</span>
+                <span class="title-meccanica">MECCANICA</span>
+            </h1>
+            <a href="#music" class="hero-logo-button">
+                <img src="Logo1.jpg" alt="Arrangia Meccanica Logo">
+            </a>
+            <a href="#bio" class="hero-scroll-hint">
+                <span>↓ scopri</span>
+            </a>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- Biography Section -->
+    <section id="bio" class="bio-section">
+        <div class="container">
+            <h2 class="section-title">About il collettivo</h2>
+            <div class="bio-content">
+                <div class="bio-text">
+                    <p>Arrangia Meccanica è un progetto musicale di sfogo creativo, che unisce sonorità dance e techno allo storytelling disperato.</p>
+                    <p>Sul palco offriamo un live show a metà tra varietà visionario (coreografie comprese) e una prova d'orchestra malfatta (non a caso, sul palco ci presenteremo in un numero che oscilla fra i 2 e i 15 musicisti/passanti).</p>
+                    <p>Autoprodotto fra quel di Novoli e Rifredi, il progetto macina idee e figuracce, nel tentativo di portare la musica elettronica nelle case dei giovani benestanti fiorentini.</p>
+                </div>
+                <div class="bio-image">
+                    <img src="FotoArrangiaMeccanica_liveDogana.jpg" alt="Band photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Music Section with Spotify Embed -->
+    <section id="music" class="music-section">
+        <div class="container">
+            <h2 class="section-title">Our Music</h2>
+            <div class="spotify-embed">
+                <iframe style="border-radius:12px"
+                        src="https://open.spotify.com/embed/artist/2mskfDfLf30VumkCGnXFFK"
+                        width="100%"
+                        height="352"
+                        frameBorder="0"
+                        allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy">
+                </iframe>
+            </div>
+            <div class="platform-links">
+                <h3>Ascoltaci su</h3>
+                <div class="platform-buttons">
+                    <a href="https://open.spotify.com/intl-it/artist/2mskfDfLf30VumkCGnXFFK" target="_blank" class="platform-btn spotify">
+                        <i class="fab fa-spotify"></i> Spotify
+                    </a>
+                    <a href="https://arrangiameccanica.bandcamp.com/" target="_blank" class="platform-btn bandcamp">
+                        <i class="fab fa-bandcamp"></i> Bandcamp
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCKywCYgBYfRUmawUnePYf4g" target="_blank" class="platform-btn youtube">
+                        <i class="fab fa-youtube"></i> YouTube
+                    </a>
+                    <a href="https://soundcloud.com/user-79686567" target="_blank" class="platform-btn soundcloud">
+                        <i class="fab fa-soundcloud"></i> SoundCloud
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section id="videos" class="videos-section">
+        <div class="container">
+            <h2 class="section-title">Videos</h2>
+            <div class="video-grid">
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                    </iframe>
+                    <p class="video-caption">suggerimento settimanale</p>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed/DzEdA2EVS60"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                    </iframe>
+                    <p class="video-caption">radical trekker</p>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed/0Hx_06ub9qM"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                    </iframe>
+                    <p class="video-caption">troia</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Shows Section -->
+    <section id="shows" class="shows-section">
+        <div class="container">
+            <h2 class="section-title">Upcoming Shows</h2>
+            <div class="shows-list">
+                <div class="show-item">
+                    <div class="show-date">
+                        <span class="day">23</span>
+                        <span class="month">APR</span>
+                    </div>
+                    <div class="show-info">
+                        <h3>Art Bar, Via del Moro 4/r</h3>
+                        <p>Firenze, Italy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="FotoArrangiaMeccanica_muretto.jpg" alt="Foto gruppo">
+                </div>
+                <div class="gallery-item">
+                    <img src="FotoArrangiaMeccanica_portaDaCalcio.jpg" alt="Foto porta da calcio">
+                </div>
+                <div class="gallery-item">
+                    <img src="FotoArrangiaMeccanica_teste.jpg" alt="Foto teste">
+                </div>
+                <div class="gallery-item">
+                    <img src="FotoArrangiaMeccanica_BarCupola.jpg" alt="Bar Cupola">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Merch Section -->
+    <section id="merch" class="merch-section">
+        <div class="container">
+            <h2 class="section-title">ARRANGIAME(R)CH</h2>
+            <div class="merch-grid">
+                <div class="merch-item">
+                    <div class="merch-image">
+                        <img src="sportinaZoom-sparsi.jpeg" alt="Sportina loghini sparsi">
+                    </div>
+                    <div class="merch-info">
+                        <h3>Sportina</h3>
+                        <p>Design loghini sparsi</p>
+                    </div>
+                </div>
+                <div class="merch-item">
+                    <div class="merch-image">
+                        <img src="sportinaZoom-arancia.jpeg" alt="Sportina arancia">
+                    </div>
+                    <div class="merch-info">
+                        <h3>Sportina</h3>
+                        <p>Design arancia</p>
+                    </div>
+                </div>
+                <div class="merch-item">
+                    <div class="merch-image">
+                        <img src="ArrangiaPoster_v2-festaInMaschera-noTitle.jpg" alt="Posterino">
+                    </div>
+                    <div class="merch-info">
+                        <h3>Posterino</h3>
+                        <p>Design personalizzabile</p>
+                    </div>
+                </div>
+                <div class="merch-item">
+                    <div class="merch-image">
+                        <img src="esempioMaglietta_bn_Corso_fronte.jpeg" alt="Maglietta fronte">
+                    </div>
+                    <div class="merch-info">
+                        <h3>T-Shirt</h3>
+                        <p>Fronte</p>
+                    </div>
+                </div>
+                <div class="merch-item">
+                    <div class="merch-image">
+                        <img src="esempioMaglietta_bn_Corso_retro.jpeg" alt="Maglietta retro">
+                    </div>
+                    <div class="merch-info">
+                        <h3>T-Shirt</h3>
+                        <p>Retro</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Contattaci</h2>
+            <div class="contact-card">
+                <h3 class="contact-subtitle">Booking · Collaborazioni · Info</h3>
+                <div class="contact-methods">
+                    <a href="/cdn-cgi/l/email-protection#3a5b48485b545d535b575f59595b5453595b7a5d575b535614595557" class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span><span class="__cf_email__" data-cfemail="32534040535c555b535f575151535c5b515372555f535b5e1c515d5f">[email&#160;protected]</span></span>
+                    </a>
+                    <a href="tel:+393208114593" class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+39 320 811 4593</span>
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/arrangiameccanica/"
+                       target="_blank"
+                       class="social-btn">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support Section -->
+    <section id="support" class="support-section">
+        <div class="container">
+            <h2 class="section-title">Sostienici!</h2>
+            <div class="support-layout">
+                <div class="support-card-box">
+                    <p class="support-mission">
+                        Aiutaci a comprare un radio microfono per permettere
+                        a CIELO di diventare Britney Spears.
+                    </p>
+                    <div class="support-divider"></div>
+                </div>
+                <a href="https://www.paypal.me/MauroChiarotti"
+                   target="_blank"
+                   class="support-circle-btn"
+                   id="britney-btn">
+                    <img src="Logo2.jpg"
+                         alt="Logo Arrangia Meccanica"
+                         class="circle-logo">
+                    <span class="circle-text">Finanziaci</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo">ARRANGIA MECCANICA</div>
+            <p>&copy; 2026 Arrangia Meccanica. All rights reserved.</p>
+            <p>Fatto bene <i class="fas fa-heart"></i> dai tuoi arrangia di quartiere</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox Overlay -->
+    <div id="lightbox-overlay">
+        <img src="" alt="Full image">
+    </div>
+
+    <!-- Britney Glow Effect -->
+    <div id="britney-glow"></div>
+
+    <script src="script.js"></script>
+    <script src="pixel-chars.js"></script>
+</body>
+</html>
